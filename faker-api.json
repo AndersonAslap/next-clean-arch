@@ -1,0 +1,61 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Teclado Gamer",
+            "description": "Teclado razor",
+            "price": 100,
+            "quantity": 10
+        },
+        {
+            "id": 2,
+            "name": "Pc Gamer",
+            "description": "Pc razor",
+            "price": 90,
+            "quantity": 8
+        },
+        {
+            "id": 3,
+            "name": "Mouse Gamer",
+            "description": "Mouse razor",
+            "price": 80,
+            "quantity": 6
+        },
+        {
+            "id": 4,
+            "name": "Fone Gamer",
+            "description": "Fone razor",
+            "price": 70,
+            "quantity": 4
+        },
+        {
+            "id": 5,
+            "name": "Monitor Gamer",
+            "description": "Monitor razor",
+            "price": 60,
+            "quantity": 2
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "products": [
+                {
+                    "id": 3,
+                    "name": "Mouse Gamer",
+                    "description": "Mouse razor",
+                    "price": 80,
+                    "quantity": 6
+                },
+                {
+                    "id": 4,
+                    "name": "Fone Gamer",
+                    "description": "Fone razor",
+                    "price": 70,
+                    "quantity": 4
+                }
+            ],
+            "credit_card_number": "1234 1234 1234 1234"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+/* layout */
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 a {
+    color: black;
+}
+
+header nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    text-decoration-style: none;
+    color: #af44a1;
+}
+
+main {
+    width: 80%;
+    margin: 16px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* products */
+
+li {
+    padding: 10px 10px;
+}
+
+li label {
+    display: block;
+    padding-bottom: 8px;
+}
+
+/* checkout */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

@@ -1,0 +1,7 @@
+  //ssg
+  const response = await fetch('http://localhost:8000/products');
+
+  // ssr
+  const response = await fetch('http://localhost:8000/products', {
+    cache: 'no-store'
+  });
